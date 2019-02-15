@@ -1,6 +1,6 @@
 ﻿// The MIT License (MIT)
 //
-// Copyright (c) 2018 Lutando Ngqakaza
+// Copyright (c) 2018 - 2019 Lutando Ngqakaza
 // https://github.com/Lutando/Akkatecture 
 // 
 // 
@@ -32,7 +32,6 @@ using Akkatecture.Walkthrough.Domain.Repositories.Revenue;
 using Akkatecture.Walkthrough.Domain.Repositories.Revenue.Queries;
 using Akkatecture.Walkthrough.Domain.Repositories.Revenue.ReadModels;
 using Akkatecture.Walkthrough.Domain.Sagas.MoneyTransfer;
-using Akkatecture.Walkthrough.Domain.Subscribers;
 using Akkatecture.Walkthrough.Domain.Subscribers.Revenue;
 
 namespace Akkatecture.Walkthrough.Application

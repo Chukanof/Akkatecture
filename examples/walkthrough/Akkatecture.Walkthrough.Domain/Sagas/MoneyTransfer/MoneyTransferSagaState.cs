@@ -1,6 +1,6 @@
 ﻿// The MIT License (MIT)
 //
-// Copyright (c) 2018 Lutando Ngqakaza
+// Copyright (c) 2018 - 2019 Lutando Ngqakaza
 // https://github.com/Lutando/Akkatecture 
 // 
 // 
@@ -28,7 +28,7 @@ using Akkatecture.Walkthrough.Domain.Sagas.MoneyTransfer.Events;
 
 namespace Akkatecture.Walkthrough.Domain.Sagas.MoneyTransfer
 {
-    public class MoneyTransferSagaState : SagaState<MoneyTransferSaga,MoneyTransferSagaId,IEventApplier<MoneyTransferSaga, MoneyTransferSagaId>>,
+    public class MoneyTransferSagaState : SagaState<MoneyTransferSaga,MoneyTransferSagaId, IMessageApplier<MoneyTransferSaga, MoneyTransferSagaId>>,
         IApply<MoneyTransferStartedEvent>,
         IApply<MoneyTransferCompletedEvent>
     {
